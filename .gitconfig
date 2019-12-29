@@ -1,0 +1,15 @@
+[merge]
+	tool = kdiff3
+[diff]
+	guitool = kdiff3
+[core]
+	editor = \"F:/GitExtensions/GitExtensions.exe\" fileeditor
+[pull]
+	rebase = false
+[fetch]
+	prune = false
+[rebase]
+	autoStash = false
+[user]
+	name = 40823136
+	email = 40823136@gm.nfu.edu.tw
