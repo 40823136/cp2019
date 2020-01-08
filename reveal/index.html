@@ -39,15 +39,12 @@ CMSimfly 網際內容管理
 <div class="slides">
 <section data-markdown>
     <script type="text/template">
-## cp2019 40823136
-
-### KMOLab
-
-<small>
-Created by [KMOLab](http://lab.kmol.info/)
+## 計算機程式期末報告
+設計一甲 郭俊良 40823136
+ ## 2020/01/09
 </small>
 
-[CMSimfly 網誌](./../blog/index.html)
+[CP2019 Blog](https://40823136.github.io/cp2019/blog/index.html)
 
 
     </script>
@@ -57,9 +54,8 @@ Created by [KMOLab](http://lab.kmol.info/)
 						
 <section data-markdown>
     <script type="text/template">
-    ## hello dart
-<p><iframe height="600" src="https://dartpad.dev/embed-inline.html?id=7468f841678dbfd086dd88415d6384bc" width="600"></iframe></p>
-
+## 溫度轉換
+<iframe width="800" height="500" src="https://dartpad.github.io/embed-html.html?gh_owner=40823136&gh_repo=cp2019&gh_path=downloads/dart_ex/tmpe2&theme=dark" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </script>
 </section>
 
@@ -68,8 +64,8 @@ Created by [KMOLab](http://lab.kmol.info/)
 <section>
 <section data-markdown>
     <script type="text/template">
-溫度轉換
-<p><iframe height="600" src="https://dartpad.dev/embed-inline.html?id=393ea23a6375b0e50debe012d4c00cf0" width="600"></iframe></p>
+##  各國國旗
+<p><iframe height="500" src="https://dartpad.dartlang.org/?gh_owner=40823136&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/國旗&amp;theme=dark" width="800"></iframe></p>
     </script>
 </section>
 
@@ -78,33 +74,8 @@ Created by [KMOLab](http://lab.kmol.info/)
 						
 <section data-markdown>
     <script type="text/template">
-<!-- 請注意, @others 不可以內縮 -->
-## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
-```
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
-
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
-```
+## 重量轉換
+<iframe width="800" height="500" src="https://dartpad.github.io/embed-html.html?gh_owner=40823136&gh_repo=cp2019&gh_path=downloads/dart_ex/weight&theme=dark" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </script>
 </section>
 
@@ -113,12 +84,11 @@ make.start()
 						
 <section data-markdown>
     <script type="text/template">
-## 使用 iframe 導入影片
-
-### 導入影片 template
-
-<iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    </script>
+## 心得
+這學期我獲益良多,一開始學如何架設網站,再來學怎麼寫溫度轉換dart,
+可是一開始不怎麼會寫,寫成重量轉換就熟悉許多,還學會了如何畫國旗,
+還有上字幕和拍影片。最後,我還要精進這方面技術。    
+</script>
 </section>
 
 
